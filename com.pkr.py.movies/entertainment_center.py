@@ -6,7 +6,7 @@ toy_story = media.Movie("Toy Story",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
-print(toy_story.storyline)
+# print(toy_story.storyline)
 # toy_story.show_trailer()
 
 avatar = media.Movie("Avatar",
@@ -14,7 +14,7 @@ avatar = media.Movie("Avatar",
                      "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                      "https://www.youtube.com/watch?v=-9ceBgWV8io")
 
-print(avatar.storyline)
+# print(avatar.storyline)
 # avatar.show_trailer()
 
 batman_vs_superman = media.Movie("Batman v Superman: Dawn of Justice",
@@ -26,4 +26,9 @@ batman_vs_superman = media.Movie("Batman v Superman: Dawn of Justice",
 
 movies = [toy_story, avatar, batman_vs_superman]
 
-fresh_tomatoes.open_movies_page(movies)
+# print(media.Movie.VALID_RATINGS)
+# fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
