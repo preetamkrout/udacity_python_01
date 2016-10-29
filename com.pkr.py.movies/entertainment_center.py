@@ -1,3 +1,4 @@
+import fresh_tomatoes
 import media
 
 toy_story = media.Movie("Toy Story",
@@ -21,4 +22,8 @@ batman_vs_superman = media.Movie("Batman v Superman: Dawn of Justice",
                                  "https://en.wikipedia.org/wiki/File:Batman_v_Superman_poster.jpg",
                                  "https://www.youtube.com/watch?v=U652-BpXVQY")
 
-batman_vs_superman.show_trailer()
+# batman_vs_superman.show_trailer()
+
+movies = [toy_story, avatar, batman_vs_superman]
+
+fresh_tomatoes.open_movies_page(movies)
